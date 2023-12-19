@@ -53,7 +53,7 @@ void stopDeck(){
 
 void moveDeckToInches(float desired_height_in ) { 
   
-     // Need a conidtion for what to do if 4 bytes are not avaliable. Using a loop would be blocking? 
+     
     float desired_height_mm = desired_height_in * 25.4; //Converts from inches to mm.
     bool flag = true;
     while(flag == true) {
